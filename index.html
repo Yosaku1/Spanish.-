@@ -26,10 +26,27 @@
   <meta name="author" content="John Doe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"
 
-
-
 </head>
+
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+</style>
+
 <body>
+
 <div id="wrapper">
 	<!-- start header -->
 	<header>
@@ -41,13 +58,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/Japon.Go.png" alt="logo" width="100" height="70"/></a>
+                    <a class="navbar-brand" href="index.html"><img src="img/Spanish.Go.png" alt="logo" width="100" height="70"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li> 
 						<li><a href="about.html">Sobre nosotros</a></li>
-						<li><a href="courses.html">コース</a></li>
+						<li><a href="courses.html">お申込み</a></li>
 
 				<!--
                         <li><a href="portfolio.html">Portfolio</a></li>
@@ -70,7 +87,7 @@
                 <img src="img/slides/1.jpg" alt=""  height="500"/>
                 <div class="flex-caption">
                    <div class="item_introtext"> 
-					<strong>オンラインスペイン語講座</strong>
+					<strong>Elisa先生のオンラインスペイン語講座</strong>
 					<p>講師歴8年のベテラン講師</p> </div>
                 </div>
               </li>
@@ -95,36 +112,58 @@
 	<!-- end slider -->
  
 	</section>
-	<section class="callaction">
-	<div class="container">
+
+    <!--item-->
+	<section class="callaction"style="background-color:	#ff8000;" >
+	<div class="container" >
 		<div class="row">
-			<div class="col-lg-12">
-				<div class="aligncenter"><h1 class="aligncenter">Nuestros cursos</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>Somos profesionales con experiencia en enseñanza de idiomas quienes buscamos que a través de clases motivadoras y entretenidas utilizando innovadores técnicas de aprendizaje de una idioma como lo es la técnica del shadowing o elementos visuales los estudiantes podrán aprender japonés o español. Asímismo, experimentar la cultura y tradiciones de dicha lengua.</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	<section id="content">
-	
+        <section id="introText">
+        <div class="container" >
+            <div style="text-align:center;">
+            
+            <a href="form.html"><button class="button button1">無料体験はこちら！！>></button></a>
+             </div>
+        </div>
+    </section></section>
+    <!--end-->
+
+    <section id="aboutUs">
+  <div class="container">
+    <div class="row"> 
+      <!-- item -->
+      <div class="col-md-4 tileBox"> <img src="img/Elisa.png" alt="me"width="350" height="350"/> </div>
+      <div class="col-md-8 tileBox">
+        <div class="txtHead">
+          <h2>エリサ先生</h2>
+          <h3> 話せる言語：スペイン語・日本語・英語・フランス語・中国語<br>8年間の外国語教師としての経験<br>MEXT教育プログラムで日本へ留学　　</h3>
+        </div>
+        <p>兵庫教育大学<br>神戸大学　日本語別科<br>メソアメリカ大学（グアテマラ）　教育学、英語教育<br>英語・スペイン語翻訳ライセンス取得 <br/>
+          <br/>
+          </p>
+      </div>
+      <!-- end: --> 
+    </div>
+  </div>
+</section>
 	
 	<div class="container">
 			<div class="row">
 		<div class="skill-home"> <div class="skill-home-solid clearfix"> 
 		<div class="col-md-3 text-center">
 		<span class="icons c1"><i class="fa fa-trophy"></i></span> <div class="box-area">
-		<h3>Curso principiantes I II</h3> <p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Hiragana, Katakana y muchos frases. Una vez cada semana y duración es 6 meses.</p></div>
+		<h3>無料体験レッスン</h3> <p>50分のスペイン語レッスンが無料で受けられます。</p></div>
 		</div>
 		<div class="col-md-3 text-center"> 
 		<span class="icons c2"><i class="fa fa-picture-o"></i></span> <div class="box-area">
-		<h3>Curso <br>avanzados I II</h3> <p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Kanji y muchos frases. Una vez cada semana y duración es 6 meses.</p></div>
+		<h3>プライベートレッスン </h3> <p>一回50分の先生との一対一のプライベートレッスンです。</p></div>
 		</div>
 		<div class="col-md-3 text-center"> 
 		<span class="icons c3"><i class="fa fa-desktop"></i></span> <div class="box-area">
-		<h3>Curso para los niños</h3> <p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos frases basicos. Una vez cada semana 30 minutos y duración es 6 meses.</p></div>
+		<h3>集中スペイン語講座</h3> <p>週に3回、一回50分の集中講座です。</p></div>
 		</div>
 		<div class="col-md-3 text-center"> 
 		<span class="icons c4"><i class="fa fa-globe"></i></span> <div class="box-area">
-		<h3>Curso intensivo</h3> <p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Hiragana, Katakana y muchos frases. Una vez cada semana y duración es 6 meses.</p>
+		<h3>カスタマイズレッスン</h3> <p>先生と相談してお好きな時間に好きなだけ勉強していただけます。</p>
 		</div></div>
 		</div></div>
 		</div> 
@@ -132,101 +171,40 @@
 
 	</div>
 	</section>
-	<div class="testimonial-area">
-    <div class="testimonial-solid">
-        <div class="container">
-            <div class="testi-icon-area">
-                <div class="quote">
-                    <i class="fa fa-microphone"></i>
-                </div>
-            </div>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
-                        <a href="#"></a>
-                    </li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item">
-                        <p>Nuestros maestros tiene experiencia como maestro de lenguaje por 8 años.</p>
-                        <p>
-                            <b>- Los maestros hablan 3 idiomas por minimo.  -</b>
-                        </p>
-                    </div>
-                    <div class="item">
-                        <p>Maestro es nativos de Japonés.</p>
-                        <p>
-                            <b>- Maestro Japonés y Guatemalteco -</b>
-                        </p>
-                    </div>
-                    <div class="item active">
-                        <p>Una de maestra ha estudiado esucacion de lenguaje en la univesidad en Japón.</p>
-                        <p>
-                            <b>- Usamos una technica muy effectivo para aprender idiomas. -</b>
-                        </p>
-                    </div>
-                    <div class="item">
-                        <p>Usamos buena metodo para estudiar idiomas.</p>
-                        <p>
-                            <b>- Estudiamos poco a poco -</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <section class="courses">
 <div class="container">
 
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="aligncenter"><h2 class="aligncenter">Oferta de nuestros cursos</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>Clases de japonés online dirigidas a guatemaltecos las cuales el contenido no será solamente gramática o vocabulario como las clases estándares de idiomas, por lo contrario, las clases introducirán simultáneamente la cultura japones y sus tradiciones. Las sesiones serán de una hora y treinta minutos siendo estructurada de una forma que envolverá las habilidades recomendadas para aprender en un idioma para ser estudiadas como escritura, lectura, producción oral y escrita en la cual serán planificadas en conjunto con temas culturales para motivar a los estudiantes a visitar Japón. 
-</div>
-			</div>
+				<div class="aligncenter"><h2 class="aligncenter">クラスの始め方</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> 
+            </div></div>
 		</div>
 <div class="row">
             <div class="col-md-4">
 			<div class="textbox">
-                <h3>Curso principiantes I</h3>
-				<p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Hiragana, Katakana y muchos frases. Una vez cada semana y duración es 6 meses.</p>
+                <h3>1．お申込み</h3>
+				<a href="form.html"><p><button class="button button1" >お申し込みはこちらから　>></button>
+                </p></a>
             </div> </div>
             <div class="col-md-4">
 			<div class="textbox">
-                  <h3>Curso principiantes II</h3>
-				<p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Hiragana, Katakana y muchos frases. Una vez cada semana y duración es 6 meses.</p>
+                  <h3>2．スカイプを設定する</h3>
+				<p style="text-align:center;"><img src="img/Skype.png" alt="Italian Trulli" width="100" height="100"></p>
             </div> </div>
 			<div class="col-md-4">
 			<div class="textbox">
-                  <h3>Curso para los niños</h3>
-				<p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos frases basicos. Una vez cada semana 30 minutos y duración es 6 meses.</p>
+                  <h3>3．授業を予約する</h3>
+				<p style="text-align:center;"><img src="img/booking.png" alt="Italian Trulli" width="100" height="100"></p>
             </div> </div>
         </div>
 		<div class="row">
             <div class="col-md-4">
 			<div class="textbox">
-                <h3>Curso avanzados I</h3>
-				<p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Kanji y muchos frases. Una vez cada semana y duración es 6 meses.</p>
+                <h3>4．授業開始！！</h3>
+				<p style="text-align:center;"><img src="img/class.png" alt="Italian Trulli" width="100" height="100"></p>
             </div> </div>
-            <div class="col-md-4">
-			<div class="textbox">
-                  <h3>Curso avanzados II</h3>
-				<p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Kanji y muchos frases. Una vez cada semana y duración es 6 meses.</p>
-            </div> </div>
-			<div class="col-md-4">
-			<div class="textbox">
-                  <h3>Curso intensivo</h3>
-				<p>Empesamos la clase en primera semana de Febrero 2021. Aprendemos Hiragana, Katakana y muchos frases. Una vez cada semana y duración es 6 meses.</p>
-            </div> </div>
+    
         </div>
 </div>
 </section>
@@ -235,11 +213,9 @@
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="widget">
-					<h5 class="widgetheading">Nuestros contactos</h5>
+					<h5 class="widgetheading">お問い合わせ</h5>
 					<address>
-					<strong>Japon.Go</strong><br>
-					Okayama prefectura, <br>
-					Ciudad de Okayama Japan.</address>
+					<strong>Spanish.語</strong></address>
 					<p>
 						<i class="icon-envelope-alt"></i> japon.gogt@gmail.com
 					</p>
@@ -247,7 +223,7 @@
 			</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="https://www.facebook.com/Jap%C3%B3n-%E8%AA%9E-101591174990501/?modal=admin_todo_tour" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/Spanish%E8%AA%9E-101948951787113" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 						</ul>
 				</div>
 			</div>
